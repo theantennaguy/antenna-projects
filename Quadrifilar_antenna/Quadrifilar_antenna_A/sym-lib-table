@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name quadrifilar_antenna)(type Legacy)(uri /home/vmmint/KiCADPrj/Quadrifilar_antenna/symbol_lib/quadrifilar_antenna.lib)(options "")(descr ""))
+  (lib (name Quadrifilar_antenna-rescue)(type Legacy)(uri ${KIPRJMOD}/Quadrifilar_antenna-rescue.lib)(options "")(descr ""))
+)

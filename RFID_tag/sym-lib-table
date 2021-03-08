@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name RFID_tag-rescue)(type Legacy)(uri ${KIPRJMOD}/RFID_tag-rescue.lib)(options "")(descr ""))
+  (lib (name nxp_rfid)(type Legacy)(uri ${KIPRJMOD}/lib_sch/nxp_rfid.lib)(options "")(descr ""))
+)

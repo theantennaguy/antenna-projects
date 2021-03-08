@@ -1,0 +1,7 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+J1,u.FL Conn,U.FL_Hirose_U.FL-R-SMT-1_Vertical,105,-60,0,top
+J2,u.FL Conn,U.FL_Hirose_U.FL-R-SMT-1_Vertical,98.5,-69,270,top
+J3,u.FL Conn,U.FL_Hirose_U.FL-R-SMT-1_Vertical,90.5,-69,270,top
+J4,u.FL Conn,U.FL_Hirose_U.FL-R-SMT-1_Vertical,82.5,-69,270,top
+R1,100,R_0402_1005Metric,83.5,-66.27,0,top
+R2,100,R_0402_1005Metric,81.5,-66.27,180,top

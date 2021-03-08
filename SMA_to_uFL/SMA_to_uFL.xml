@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/vmmint/KiCADPrj/SMA_to_uFL/SMA_to_uFL.sch</source>
+    <date>Sat 06 Mar 2021 12:09:43 AM WET</date>
+    <tool>Eeschema 5.1.9-73d0e3b20d~88~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SMA to u.FL transition board</title>
+        <company>Ricardo Goncalves</company>
+        <rev>1.0</rev>
+        <date/>
+        <source>SMA_to_uFL.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J5">
+      <value>SMA Conn</value>
+      <footprint>Connector_Coaxial:SMA_Samtec_SMA-J-P-X-ST-EM1_EdgeMount</footprint>
+      <datasheet>https://suddendocs.samtec.com/prints/sma-j-p-x-st-em1-mkt.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60415B30</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>u.FL Conn</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet>https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-01&amp;productname=U.FL-R-SMT-1(01)&amp;series=U.FL&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=0000940668</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60417B3C</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6042452C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60423FBC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>u.FL Conn</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet>https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-01&amp;productname=U.FL-R-SMT-1(01)&amp;series=U.FL&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=0000940668</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6043FA54</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>u.FL Conn</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet>https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-01&amp;productname=U.FL-R-SMT-1(01)&amp;series=U.FL&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=0000940668</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6044051E</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>u.FL Conn</value>
+      <footprint>Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical</footprint>
+      <datasheet>https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-01&amp;productname=U.FL-R-SMT-1(01)&amp;series=U.FL&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=0000940668</datasheet>
+      <libsource lib="Connector" part="Conn_Coaxial" description="coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60440A1B</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_Coaxial">
+      <description>coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_Coaxial</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J4-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+    <net code="3" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(J1-Pad1)">
+      <node ref="J5" pin="1"/>
+      <node ref="J1" pin="1"/>
+    </net>
+  </nets>
+</export>
