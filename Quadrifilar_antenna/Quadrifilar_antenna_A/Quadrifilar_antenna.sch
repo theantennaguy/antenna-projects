@@ -7,7 +7,7 @@ Sheet 1 1
 Title "Quadrifilar antenna for UHF RFID - Part A"
 Date ""
 Rev "1.0"
-Comp "Ricardo Goncalves"
+Comp "The antenna guy"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -20,14 +20,18 @@ NoConn ~ 6050 3500
 NoConn ~ 6050 4200
 NoConn ~ 5350 4200
 $Comp
-L quadrifilar_antenna:quadrifilar_antenna AE?
+L quadrifilar_antenna:quadrifilar_antenna AE1
 U 1 1 6044527E
 P 5700 3850
-F 0 "AE?" H 6319 3896 50  0000 L CNN
-F 1 "quadrifilar_antenna" H 6319 3805 50  0000 L CNN
-F 2 "" H 5700 3850 50  0001 C CNN
+F 0 "AE1" H 6319 3896 50  0000 L CNN
+F 1 "quadrifilar_antenna" H 5350 3150 50  0000 L CNN
+F 2 "Quadrifilar_antenna:radiation_elements" H 5700 3850 50  0001 C CNN
 F 3 "" H 5700 3850 50  0001 C CNN
 	1    5700 3850
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6650 3700
+NoConn ~ 6650 3800
+NoConn ~ 6650 3900
+NoConn ~ 6650 4000
 $EndSCHEMATC
