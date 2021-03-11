@@ -1,4 +1,4 @@
-19082543793669487
+19087390111936881
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -73478,6 +73478,27 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
+Quadrifilar_antenna
+SMA_Samtec_J-P-X-ST-EM1-Removed_top_pads
+
+
+0
+3
+2
+Quadrifilar_antenna
+feed_network
+
+
+0
+8
+8
+Quadrifilar_antenna
+hybrid_coupler
+
+
+0
+0
+0
 Quadrifilar_antenna
 radiation_elements
 
