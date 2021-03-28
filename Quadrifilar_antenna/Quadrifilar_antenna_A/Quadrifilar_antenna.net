@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ricmr\Projects\antenna-projects\Quadrifilar_antenna\Quadrifilar_antenna_A\Quadrifilar_antenna.sch)
-    (date "3/8/2021 11:30:06 PM")
+    (date "3/28/2021 11:03:49 PM")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -20,8 +20,31 @@
       (footprint Quadrifilar_antenna:radiation_elements)
       (libsource (lib quadrifilar_antenna) (part quadrifilar_antenna) (description ""))
       (sheetpath (names /) (tstamps /))
-      (tstamp 6044527E)))
+      (tstamp 6044527E))
+    (comp (ref N1)
+      (value "FeedNetwork (Part B)")
+      (footprint Quadrifilar_antenna:partB)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part Housing) (description Housing))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 6060FB87))
+    (comp (ref N2)
+      (value "Balun (Part C)")
+      (footprint Quadrifilar_antenna:partC)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part Housing) (description Housing))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 606121B0)))
   (libparts
+    (libpart (lib Mechanical) (part Housing)
+      (description Housing)
+      (docs ~)
+      (footprints
+        (fp Enclosure*)
+        (fp Housing*))
+      (fields
+        (field (name Reference) N)
+        (field (name Value) Housing)))
     (libpart (lib quadrifilar_antenna) (part quadrifilar_antenna)
       (fields
         (field (name Reference) AE)
@@ -36,6 +59,8 @@
         (pin (num 7) (name GND) (type passive))
         (pin (num 8) (name GND) (type passive)))))
   (libraries
+    (library (logical Mechanical)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib"))
     (library (logical quadrifilar_antenna)
       (uri C:/Users/ricmr/Projects/antenna-projects/Quadrifilar_antenna/symbol_lib/quadrifilar_antenna.lib)))
   (nets

@@ -34,4 +34,26 @@ NoConn ~ 6650 3700
 NoConn ~ 6650 3800
 NoConn ~ 6650 3900
 NoConn ~ 6650 4000
+$Comp
+L Mechanical:Housing N1
+U 1 1 6060FB87
+P 5650 6300
+F 0 "N1" H 5803 6334 50  0000 L CNN
+F 1 "FeedNetwork (Part B)" H 5803 6243 50  0000 L CNN
+F 2 "Quadrifilar_antenna:partB" H 5700 6350 50  0001 C CNN
+F 3 "~" H 5700 6350 50  0001 C CNN
+	1    5650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Housing N2
+U 1 1 606121B0
+P 5650 6750
+F 0 "N2" H 5803 6784 50  0000 L CNN
+F 1 "Balun (Part C)" H 5803 6693 50  0000 L CNN
+F 2 "Quadrifilar_antenna:partC" H 5700 6800 50  0001 C CNN
+F 3 "~" H 5700 6800 50  0001 C CNN
+	1    5650 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
